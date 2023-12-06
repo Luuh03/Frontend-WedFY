@@ -1,0 +1,126 @@
+.clientRegisterPage {
+    height: 92.5%;
+    display: flex;
+
+    background-color: white;
+}
+
+.clientRegisterPage .registerContainer {
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientRegisterPage .registerContainer .registerForm {
+    width: 60%;
+}
+
+.clientRegisterPage .registerContainer form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clientRegisterPage .registerContainer h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.clientRegisterPage .registerContainer label {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.clientRegisterPage .registerContainer #nome {
+    width: 41%;
+}
+
+.clientRegisterPage .registerContainer #sobrenome {
+    width: 51%;
+}
+
+.clientRegisterPage .registerContainer #email {
+    width: 100%;
+}
+
+.clientRegisterPage .registerContainer #senha {
+    width: 46%;
+}
+
+.clientRegisterPage .registerContainer #login {
+    width: 53%;
+}
+
+.clientRegisterPage .registerContainer #telefone {
+    width: 35%;
+}
+
+.clientRegisterPage .registerContainer label input {
+    width: 100%;
+    height: 2.825rem;
+
+    border-radius: 0.4375rem;
+    border: 1px solid #000;
+    background: #FEFDFD;
+    margin: 0.5rem auto;
+
+    font-family: Titillium web;
+    font-size: 1.375rem;
+    font-weight: 300;
+
+    padding: 0 0.6rem;
+}
+
+.clientRegisterPage .registerContainer form p {
+    width: 100%;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin: 3rem 0;
+}
+
+.clientRegisterPage .registerContainer form p a {
+    color: var(--roxo-botao-escuro);
+    text-decoration: none;
+}
+
+.clientRegisterPage .registerContainer form center {
+    width: 100%;
+}
+
+.clientRegisterPage .registerContainer form button {
+    width: 18.3125rem;
+    height: 3.75rem;
+
+    border: 0;
+    border-radius: 1rem;
+    background: var(--verde-botao);
+
+    color: #FFF;
+    font-family: Titillium Web;
+    font-size: 1.875rem;
+    font-weight: 700;
+
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.clientRegisterPage .registerContainer form button:hover {
+    background-color: var(--verde-botao-escuro);
+}
+
+.clientRegisterPage .asideImage {
+    width: 50%;
+
+    background-image: url(../../images/ClientFormImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

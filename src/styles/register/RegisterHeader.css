@@ -1,0 +1,38 @@
+.RegisterHeader {
+    height: 7.5%;
+
+    background-color: var(--roxo-menu) ;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 6.94rem;
+}
+
+.RegisterHeader img {
+    width: 10.375rem;
+    height: 2.5rem;
+}
+
+.RegisterHeader a {
+    height: 100%;
+    width: 11.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+
+    transition: all 0.2s;
+}
+
+.RegisterHeader a:hover {
+    background: var(--roxo-botao-escuro);
+    color: white;
+}
